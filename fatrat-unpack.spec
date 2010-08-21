@@ -16,6 +16,7 @@ BuildRequires: libqt4-devel
 BuildRequires: libzip-devel
 BuildRequires: cmake 
 
+BuildRequires: fatrat-devel = %{version}
 Requires: fatrat = %{version}
 Requires: libzip
 
@@ -47,3 +48,4 @@ rm -rf %{buildroot}
 %{_docdir}/%{name}/TRANSLATIONS
 %{_docdir}/%{name}/3RDPARTIES
 
+%changelog
