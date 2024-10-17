@@ -6,7 +6,7 @@ Version:	1.1.3
 Release:	1
 License:	GPLv2+
 Group:		Networking/File transfer
-Url:		http://fatrat.dolezel.info/
+Url:		https://fatrat.dolezel.info/
 Source0:	%{name}-%{version}.tar.gz
 BuildRequires:	cmake
 BuildRequires:	fatrat-devel
